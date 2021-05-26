@@ -1,0 +1,41 @@
+h1
+{
+    color: #305d6d;
+    font-size: 30px;
+}
+p{
+    color:#9b5c5c
+}
+.tools-img {
+    float: left;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tools-img img {
+    width: 450px;
+    height: 400px;
+    transition: all 1s;
+}
+.tools-img:hover img{
+    box-shadow: 0 0.5rem 0.5rem black !important;
+
+}
+.tools-head h2{
+    text-shadow: 2px black;
+    padding: 10px;
+}
+.tools-head b{
+    font-size: 14px;
+}
+.tools-head {
+    text-align: center;
+    margin: 20px;
+    color:#9b5c5c
+
+}
+#tools {
+    margin: 7rem 0rem 3rem;
+}

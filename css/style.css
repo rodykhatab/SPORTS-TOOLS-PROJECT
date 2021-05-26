@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1
+{
+    color: #305d6d;
+    font-size: 30px;
+}
+p{
+    color:#9b5c5c
+}
+.heading h1{
+    color: yellow;
+}
+.head {
+    background-image:url(../images/pg.jpg) ;
+    background-size: 100% 100%;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.head-layer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header-item {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* color of register body */
+.body{
+    background-color: #0e4c0d;
+}
+.reg-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #0e4c0d;
+}
+.header-item h1 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9999999999;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.nav ul {
+    float: right;
+    list-style: none;
+}
+
+.nav h3 {
+    float: left;
+    color:#fff ;
+    padding: 20px 10px;
+}
+
+.nav ul li {
+    float: left;
+    padding: 20px 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clr {
+    clear: both;
+}
+.container {
+    min-width: 92% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.back{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: yellow;
+}
+.send-messege, .get {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.form-control {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 10px 0;
+}
+.blog-item img ,.sales-item img{
+    width: 400px;
+    height: 400px;
+}
+.btn-send,.btn-sub {
+    padding: 10px 15px;
+    color: #0e4c0d;
+    background-color:yellow;
+    border: none;
+    border-radius: 2px;
+}
+select {
+    background-color:#0e4c0d ;
+    color: yellow;
+
+}
+.blog {
+    margin: 5rem 0;
+    padding: 2rem 0;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.sales{
+    margin: 5rem 0;
+    padding: 2rem 0;
+}
+.blog-item ,.sales-item{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-item a {
+    text-decoration: none;
+    color:#305d6d;
+}
+.blog-heading,.sales-heading {
+    text-align: center;
+    padding: 10px;
+}
+.d-flex{
+    display: flex;
+}
+.btn-sales{
+    padding: 15px 20px;
+    background-color: yellow;
+    color: #0e4c0d;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    padding: 3rem;
+    text-align: center;
+    background-color:  #0e4c0d;
+    color: #fff;
+}
+.w-100 {
+    width: 100% !important;
+}
+.w-50 {
+    width: 50%;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pt-2, .py-2 {
+    padding-top: 0.5rem;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 3rem;
+}
+
+.pt-5, .py-5 {
+    padding-top: 3rem;
+}
+
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem;
+}
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem;
+}
+
+.pl-5, .px-5 {
+    padding-left: 3rem;
+}
+
+.pr-5, .px-5 {
+    padding-right: 3rem;
+}
+
+.p-3, .py-3 {
+    padding-bottom: 1rem;
+}
+
+.pt-3, .py-3 {
+    padding-top: 1rem;
+}
